@@ -60,8 +60,7 @@ OS : ubuntu 20.04 server
 URL : 
 
 # ライセンス
-
-  
+https://github.com/SakaTaku2/robosys_report1/blob/3394557b1d9618ffd1dcc6306e8000a87f2b1b60/LICENSE
   
   
  
