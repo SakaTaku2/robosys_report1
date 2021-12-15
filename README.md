@@ -60,7 +60,9 @@ OS : ubuntu 20.04 server
 URL : 
 
 # ライセンス
-https://github.com/SakaTaku2/robosys_report1/blob/3394557b1d9618ffd1dcc6306e8000a87f2b1b60/LICENSE
-  
-  
+GNU General Public License v2.0
+
+また、以下のURLから閲覧可能
+URL : https://github.com/SakaTaku2/robosys_report1/blob/3394557b1d9618ffd1dcc6306e8000a87f2b1b60/LICENSE
+
  
