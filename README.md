@@ -57,7 +57,7 @@ OS : ubuntu 20.04 server
   ```
   
 # サンプル動画
-URL : 
+URL : https://youtu.be/2hP8krfeIx0
 
 # ライセンス
 GNU General Public License v2.0
