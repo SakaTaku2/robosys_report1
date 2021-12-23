@@ -2,7 +2,7 @@
 ロボットシステム学「課題１」
 
 # 概要
-講義ビデオを見ながらデバイスドライバを作成し、改造する。また、著作権やライセンスの記述も考慮する。
+講義ビデオを見ながらデバイスドライバを作成する。
 
 # 動作環境
 以下の環境を用いて動作確認を行う。
@@ -60,9 +60,3 @@ URL : https://youtu.be/2hP8krfeIx0
 
 # ライセンス
 GNU General Public License v2.0
-
-また、以下のURLから閲覧可能
-
-URL : https://github.com/SakaTaku2/robosys_report1/blob/3394557b1d9618ffd1dcc6306e8000a87f2b1b60/LICENSE
-
- 
