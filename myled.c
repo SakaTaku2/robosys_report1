@@ -20,8 +20,11 @@ static struct cdev cdv;
 static struct class *cls = NULL;
 static volatile u32 *gpio_base = NULL; //アドレスをマッピングするための配列をグローバルで定義する
 
-int x = KERN_INFO;
-int y = KERN_ERR;
+char x;
+char y;
+
+x = 'KERN_INFO';
+y = 'KERN_ERR';
 
 static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_t* pos){
 	char c; //読み込んだ字を入れる変数
