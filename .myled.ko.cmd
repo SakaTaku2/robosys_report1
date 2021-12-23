@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/git/robosys_report1/myled.ko := ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o /home/ubuntu/git/robosys_report1/myled.ko /home/ubuntu/git/robosys_report1/myled.o /home/ubuntu/git/robosys_report1/myled.mod.o;  true
