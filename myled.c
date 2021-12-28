@@ -57,7 +57,7 @@ static int __init init_mod(void){ //カーネルモジュール
 	int retval;  
 	retval = alloc_chrdev_region(&dev, 0, 1, "myled");
 	if(retval < 0){
-		printk(y "alloc_chrdev_region failed.\n");
+		printk(KERN_ERR "alloc_chrdev_region failed.\n");
 		return retval;
 	}
 
