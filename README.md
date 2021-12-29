@@ -22,9 +22,11 @@ OS : ubuntu 20.04 server
 
 ・ブレッドボード ×１
 
-# 回路の説明
+# 回路の説明![２．直線のグラフ](https://user-images.githubusercontent.com/94817675/147661807-3236aaad-7c9c-46d3-a410-741921fbdd56.png)
+
 今回使用する回路は下図のように接続する。
 ![S__21561397](https://user-images.githubusercontent.com/94817675/146217858-44289919-2dc6-474b-b083-f7f961fef952.jpg)
+
 
 今回は、ラズパイ４の「GPIO 25」と抵抗(240Ω)を接続し、抵抗(240Ω)とLEDのアノードを接続、そしてLEDのカソードとラズパイ４の「Ground」を接続している。
 # インストール方法
