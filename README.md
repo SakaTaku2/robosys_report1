@@ -22,8 +22,7 @@ OS : ubuntu 20.04 server
 
 ・ブレッドボード ×１
 
-# 回路の説明![２．直線のグラフ](https://user-images.githubusercontent.com/94817675/147661807-3236aaad-7c9c-46d3-a410-741921fbdd56.png)
-
+# 回路の説明
 今回使用する回路は下図のように接続する。
 ![S__21561397](https://user-images.githubusercontent.com/94817675/146217858-44289919-2dc6-474b-b083-f7f961fef952.jpg)
 
