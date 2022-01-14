@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (C) 2021 Ryuichi Ueda. All rights reserved.
+ * Copyright (C) 2021 Takumi Sakamoto. All rights reserved.
  */
 
 #include<linux/module.h>
@@ -10,7 +11,7 @@
 #include<linux/uaccess.h>
 #include<linux/io.h>
 
-MODULE_AUTHOR("Ryuichi Ueda");
+MODULE_AUTHOR("Ryuichi Ueda and Takumi Sakamoto");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.0.1");
@@ -38,8 +39,8 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 
 static ssize_t sushi_read(struct file* filp, char* buf, size_t count, loff_t* pos){
 	int size = 0;
-	char sunobo-[] ={'s', 'u', 'n', 'o', 'b', 'o', '-', 0x0A}; //寿司の絵文字のバイナリ
-	if(copy_to_user(buf+size,(const char *)sushi, sizeof(sushi))){
+	char sunobo-[] ={'s', 'u', 'n', 'o', 'b', 'o', '-', 0x0A}; //スノボーの文字のバイナリ
+	if(copy_to_user(buf+size,(const char *)sunobo-, sizeof(sunobo-))){
 		printk(KERN_INFO "sunobo- : copy_to_user failed\n");
 		return -EFAULT;
 	}
