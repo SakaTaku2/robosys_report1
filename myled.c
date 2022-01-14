@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-2.0
+// SPDX-License-Identifier: GPL-3.0
 /*
  * Copyright (C) 2021 Ryuichi Ueda. All rights reserved.
  * Copyright (C) 2021 Takumi Sakamoto. All rights reserved.
