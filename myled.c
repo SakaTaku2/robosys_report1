@@ -43,7 +43,7 @@ static ssize_t sushi_read(struct file* filp, char* buf, size_t count, loff_t* po
 		printk(KERN_INFO "sunobo- : copy_to_user failed\n");
 		return -EFAULT;
 	}
-	size += sizeof(sushi);
+	size += sizeof(sunobo-);
 	return size;
 }
 
